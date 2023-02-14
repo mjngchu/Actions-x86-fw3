@@ -82,7 +82,7 @@ jobs:
       run: cd ~/work/Actions-x86-fw3/Actions-x86-fw3/lede && ./scripts/feeds update -a
     
     - name: Install lede feeds
-      run: cd ~/work/Actions-m8621/Actions-m8621/lede && ./scripts/feeds install -a
+      run: cd ~/work/Actions-x86-fw3/Actions-x86-fw3/lede && ./scripts/feeds install -a
       
     - name: cp mosdns
       run: |
