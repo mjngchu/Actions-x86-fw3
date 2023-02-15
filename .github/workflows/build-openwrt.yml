@@ -95,6 +95,12 @@ jobs:
         cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/feeds/packages/net/mosdns feeds/packages/net/mosdns
         cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/package/feeds/luci/luci-app-mosdns package/feeds/luci/luci-app-mosdns
         cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/package/feeds/packages/mosdns package/feeds/packages/mosdns
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/feeds/luci/applications/luci-app-arpbind feeds/luci/applications/luci-app-arpbind
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/feeds/luci/applications/luci-app-diskman feeds/luci/applications/luci-app-diskman
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/feeds/luci/applications/luci-app-turboacc feeds/luci/applications/luci-app-turboacc
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/package/feeds/luci/luci-app-arpbind package/feeds/luci/luci-app-arpbind
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/package/feeds/luci/luci-app-diskman package/feeds/luci/luci-app-diskman
+        cp -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede/package/feeds/luci/luci-app-turboacc package/feeds/luci/luci-app-turboacc
         sudo rm -r ~/work/Actions-x86-fw3/Actions-x86-fw3/lede
 
     - name: Load custom configuration
